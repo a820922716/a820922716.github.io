@@ -1,0 +1,522 @@
+﻿.main{width:1200px;margin:auto;overflow:hidden;}
+.none{display: none;}
+
+@font-face {
+    font-family: 'coco';
+    src: url('../fonts/coco_gothic_regular-trial-webfont.eot')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.eot*/;
+    src: url('../fonts/coco_gothic_regular-trial-webfont.eot-#iefix')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.eot?#iefix*/ format('embedded-opentype'),
+         url('../fonts/coco_gothic_regular-trial-webfont.woff2')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.woff2*/ format('woff2'),
+         url('../fonts/coco_gothic_regular-trial-webfont.woff')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.woff*/ format('woff'),
+         url('../fonts/coco_gothic_regular-trial-webfont.ttf')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.ttf*/ format('truetype'),
+         url('../fonts/coco_gothic_regular-trial-webfont.svg#coco_gothiclight')/*tpa=http://www.cdrenai.cn/skin/jhyc/fonts/coco_gothic_regular-trial-webfont.svg#coco_gothiclight*/ format('svg');
+}
+
+/*===============客服===============*/
+.qqkefu{position: fixed;top:55%;_position: absolute;_top: expression(eval(document.documentElement.scrollTop + 365));z-index: 20;right:0;width:45px;}
+.qqkefu ul li{width: 45px;height:45px;margin-bottom:1px;float:right;line-height:45px;font-size:14px;cursor:pointer;position:relative;text-indent: 10px;}
+.qqkefu ul li a{color:#fff;display: block;overflow: hidden;height: 45px;}
+.qqkefu ul li.qq_cza{overflow:hidden}
+.qqkefu ul li:hover{background:#0093dd;}
+.qqkefu ul li.top{background:url(../images/k1.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k1.png*/ no-repeat center #255d97;position:relative;width:45px;height: 45px;cursor:pointer;}
+.qqkefu ul li.top span{position:absolute;display:block;left:0;top:-5px;height:5px;width:45px;}
+.qqkefu ul li.top:hover{background:url(../images/k1.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k1.png*/ no-repeat center #0093dd;}
+.qqkefu ul li b{width:45px;height:45px;display:block;overflow:hidden;float:right;}
+.qqkefu ul li span{font-size: 14px;font-weight: bold;color: #FFF;}
+.qqkefu ul li b.a{background:url(../images/k2.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k2.png*/ no-repeat center #255d97;}
+.qqkefu ul li b.b{background:url(../images/k3.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k3.png*/ no-repeat center #255d97;}
+.qqkefu ul li b.f{background:url(../images/k4.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k4.png*/ no-repeat center #255d97;}
+.qqkefu ul li b.c{background:url(../images/k5.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k5.png*/ no-repeat center #255d97;}
+.qqkefu ul li:hover b.a{background:url(../images/k2.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k2.png*/ no-repeat center center #0093dd;}
+.qqkefu ul li:hover b.b{background:url(../images/k3.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k3.png*/ no-repeat center center #0093dd;}
+.qqkefu ul li:hover b.f{background:url(../images/k4.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k4.png*/ no-repeat center center #0093dd;}
+.qqkefu ul li:hover b.c{background:url(../images/k5.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/k5.png*/ no-repeat center center #0093dd;}
+.qqkefu ul li.qq_czb{text-indent: 0;}
+.qqkefu ul li.qq_czae{ line-height:15px !important}
+.erweima{position: absolute;width:111px;height:150px;top: -120px;left: -111px;float: right;cursor: default !important;display:none;background:url(../images/qr_img.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/qr_img.png*/ no-repeat;}
+.erweima p{margin-top:20px;margin-left:10px;}
+.erweima img{width:90px;height:90px;}
+.qqkefu li .erweima p a{display:block;font-size:14px;color:#333;margin-top:-8px;margin-left:30px;}
+
+/*===============所在位置===============*/
+.position{margin:auto;text-align:right; float:right;}
+.position a{font-size:12px;color:#595757; padding-left:5px;}
+.position .visited{color:#255d97;}
+
+/*===============分页===============*/
+.page_ul {overflow: hidden;padding-top:10px;*margin-top:30px; clear:both;}
+.page_ul h1{background:none;}
+.page_ul .page{font-size: 12px;text-align: center;}
+.page_ul .page a {display:inline-block;}
+.page_prev {background:url(../images/p_left.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/p_left.png*/ no-repeat center #eceaeb;width:32px;height:32px;border-bottom:1px solid #cccccc;}
+.page_next {background:url(../images/p_right.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/p_right.png*/ no-repeat center #eceaeb;width:32px;height:32px;border-bottom:1px solid #cccccc;}
+.page_prev:hover{border-bottom:1px solid #0c82bd;background:url(../images/p_left_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/p_left_h.png*/ no-repeat center #0093dd;;color:#fff}
+.page_next:hover{border-bottom:1px solid #0c82bd;background:url(../images/p_right_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/p_right_h.png*/ no-repeat center #0093dd;color:#fff}
+.page_prev,.page_next{display: inline;width:32px;height:32px;vertical-align: top;cursor: pointer;margin-left:5px;-webkit-transition: all 0.5s ease-in-out 0s;}
+.page_ul .page .shu_1{margin-left:5px;color: #000; line-height:32px; vertical-align:middle; text-align:center;width:33px; height:32px; border-bottom:1px solid #cccccc;
+background:#f2f2f2;-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+.page_ul .page .shu_1.hover{ border-bottom:1px solid #0c82bd; background:#0093dd; color:#fff}
+.page_ul .page .shu_1:hover{ border-bottom:1px solid #0c82bd;background:#0093dd;color:#fff}
+
+/*===============头部===============*/
+.header{overflow:hidden; height:75px;}
+.header img{float:left;}
+
+/*===============导航部分===============*/
+.navigation{ width:830px; float:left; overflow:hidden; margin-left:105px;}
+.navigation ul li{text-align:center; padding:0px 21px;height:75px;line-height:75px;float:left;position:relative;-webkit-transition: all 0.5s ease-in-out;}
+.navigation ul li a{display:block;color:#464646;font-size:14px;}
+.navigation ul li.hover{background:#0093dd;}
+.navigation ul li:hover{background:#0093dd;}
+.navigation ul li:hover a{color:#fff;}
+.navigation ul li.hover a{color:#fff;}
+.navigation ul li.r{margin-right:0px;}
+
+.header_right{overflow:hidden; float:right; margin-top:25px;}
+.header_right p{width:21px; height:21px; background:url(../images/yy.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yy.jpg*/ no-repeat center; text-align:center; float:left; margin-left:12px;}
+.header_right p a{display:block; font-size:9px; color:#616161; line-height:18px; vertical-align:middle;}
+.header_right p:hover{background:url(../images/yy_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yy_h.jpg*/ no-repeat center;}
+.header_right p.hover{background:url(../images/yy_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yy_h.jpg*/ no-repeat center;}
+.header_right p:hover a{color:#fff;}
+.header_right p.hover a{color:#fff;}
+
+/*===============下拉部分===============*/
+.xiala{position:absolute; top:40px; left:0px;display:none;width:126px;}
+.xiala p{overflow:hidden;width:126px;height:35px; line-height:35px; background:#255d97; text-align:left; vertical-align:middle;-webkit-transition: all 0.5s ease-in-out;}
+.navigation ul li .xiala p a{display:block;font-size:14px;color:#fff; padding:0px 15px;}
+.xiala p:hover{background:#0093dd;}
+.navigation ul li:hover .xiala p:hover a{color:#fff;font-size:14px;}
+.navigation ul li.hover .xiala p:hover a{color:#fff;font-size:14px;}
+
+/*===============主页第一部分部分===============*/
+.zy_first{padding:95px 0px 150px 0px;overflow:hidden; text-align:center; background:#f0f0f0;}
+.first{overflow:hidden; padding-bottom:65px;}
+.first strong{display:block; font-size:36px; color:#5c5c5c; font-family:coco; font-weight:500; text-transform:uppercase; line-height:45px;}
+.first span{display:block; font-size:18px; color:#5c5c5c; margin-top:-10px;}
+.first em{display:block; line-height:24px; color:#686868; font-size:12px; padding-top:20px;}
+.first.r strong,.first.r span,.first.r em{color:#fff;}
+.zy_first ul{overflow:hidden; margin-top:20px;}
+.zy_first li{width:377px; float:left; height:157px; overflow:hidden; margin-right:22px;-webkit-transition: all 0.5s ease-in-out;}
+.zy_first li a{display:block; cursor:pointer;}
+.zy_first li.r{margin-right:0px;}
+.zy_first li p{width:175px; float:right; margin-right:30px; font-size:14px; color:#707070; line-height:24px; padding-top:40px;}
+.zy_first li.li1{background:url(../images/tu1.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu1.jpg*/ no-repeat center; text-align:left;}
+.zy_first li.li2{background:url(../images/tu2.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu2.jpg*/ no-repeat center; text-align:left;}
+.zy_first li.li3{background:url(../images/tu3.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu3.jpg*/ no-repeat center; text-align:left;}
+.zy_first li.li1:hover{background:url(../images/tu1_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu1_h.jpg*/ no-repeat center;}
+.zy_first li.li2:hover{background:url(../images/tu2_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu2_h.jpg*/ no-repeat center;}
+.zy_first li.li3:hover{background:url(../images/tu3_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tu3_h.jpg*/ no-repeat center;}
+.zy_first li:hover p{color:#fff;}
+
+
+/*===============主页第三部分部分===============*/
+.zy_three{overflow:hidden; padding:100px 0px 0px 0px; background:#0093dd; text-align:center;}
+.three_ny{width:100%;margin:auto;position:relative;background:#fff; padding-top:2px;}
+.btn{z-index:11;}
+.btn img{padding-top:95px;}
+.btn .btn_l{width:414px;height:284px;position: absolute; top:2px;z-index: 2;left:0px;background:url(../images/btn_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_h.png*/;}
+.btn .btn_r{width:414px;height:284px;position: absolute; top:2px;right:0px;z-index: 1;background:url(../images/btn_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_h.png*/;}
+
+/*===============主页第四部分===============*/
+.zy_four{padding:95px 0px; overflow:hidden; background:#fbfbfb;}
+.four_left{width:205px; float:left; overflow:hidden;}
+.four_left strong{line-height:45px;font-size:36px; color:#5c5c5c; font-weight:500; text-transform:uppercase;}
+.four_left span{display:block; font-size:18px; color:#5c5c5c;}
+.four_left ul{margin-top:40px; overflow:hidden;}
+.four_left ul li{overflow:hidden; border-top:1px solid #e4e4e4; height:59px; line-height:59px; padding:0px 20px;-webkit-transition: all 0.5s ease-in-out;}
+.four_left ul li.r{border-bottom:1px solid #e4e4e4;}
+.four_left ul li a{display:block; font-size:14px; color:#373737;}
+.four_left ul li:hover{background:#0093dd;}
+.four_left ul li:hover a{color:#fff;background:url(../images/l_sj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/l_sj.png*/ no-repeat center right;}
+.four_left ul li.hover{background:#0093dd;}
+.four_left ul li.hover a{color:#fff; background:url(../images/l_sj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/l_sj.png*/ no-repeat center right;}
+
+.four_right{overflow:hidden; width:960px; float:right; position:relative; margin-top:15px;}
+.featured-info, #home-featured-nav{float:right;}
+.four_right .featured-images{float:left;}
+.featured-info{overflow:hidden; background:#f5f5f5;}
+.featured-info li{width:240px; padding:58px 30px 50px 30px; overflow:hidden;}
+.featured-info p{font-size:12px; color:#4d4c4c; line-height:30px;}
+.featured-info a{ margin-top:50px;width:120px; height:32px; line-height:32px; vertical-align:middle; text-align:center; background:#bdbdbd; display:block; font-size:14px; color:#4d4c4c;-webkit-transition: all 0.5s ease-in-out;}
+.featured-info a:hover{background:#0093dd; color:#fff;}
+a#home-read-more-button{background:url(images/bt-home-readmore.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/css/images/bt-home-readmore.png*/ no-repeat;width:103px;height:42px;margin-top:25px;
+display:block;text-indent:-9999px;}
+/** featured images**/
+.four_right .featured-images{width:625px;height:400px;position:relative;}
+.images ul li{width:625px;height:400px;}
+span.glare{background:url(images/computer-glare.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/css/images/computer-glare.png*/ no-repeat;display:block;position:absolute;right:25px;top:30px;
+width:219px;height:239px;z-index:9999;}
+/** featured slider navigation **/
+ul.home-featured-nav{ position:absolute; z-index:20; width:625px; left:0px; top:42%; height:60px;}
+ul.home-featured-nav li{margin-bottom:5px;}
+ul.home-featured-nav a{width:27px;height:59px;display:block;text-indent:-9999px;margin:auto;}
+ul.home-featured-nav a:hover{filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1;}
+ul.home-featured-nav li.next a{background:url(../images/l_btn.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/l_btn.png*/ no-repeat; position:absolute; left:0px;}
+ul.home-featured-nav li.next a:hover{background:url(../images/lh_btn.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/lh_btn.png*/ no-repeat center;}
+ul.home-featured-nav li.prev a{background:url(../images/r_btn.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/r_btn.png*/ no-repeat; position:absolute; right:0px;}
+ul.home-featured-nav li.prev a:hover{background:url(../images/rh_btn.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/rh_btn.png*/ no-repeat center;}
+
+
+/*===============主页第五部分部分===============*/
+.zy_five{padding:95px 0px 65px 0px; overflow:hidden; text-align:center; background:#f0f0f0}
+.zy_five strong{line-height:45px;display:block; text-transform:uppercase; font-size:36px; color:#5c5c5c; font-family:coco;}
+.zy_five span{display:block;font-size:18px; color:#5c5c5c;}
+.zy_five ul{overflow:hidden; min-height:375px; margin-top:50px;}
+.zy_five ul li{overflow:hidden; min-height:375px; float:left; width:375px; padding-left:165px; text-align:left; padding-right:55px;}
+.zy_five li h2{font-size:18px; color:#5c5c5c; margin-bottom:25px;}
+.five_faq{overflow:hidden;}
+.five_faq_top{display:block;overflow:hidden; width:375px; padding-bottom:15px; cursor:pointer;}
+.five_faq_top small{width:16px; height:16px; background:#bdbdbd; float:left; display:block;font-size:12px; color:#5c5c5c; text-align:center; line-height:16px; vertical-align:middle; margin-right:10px}
+.five_faq_top em{display:block; float:left; font-size:12px; color:#5c5c5c;}
+.five_faq_top:hover em{color:#0093dd; text-decoration:underline;}
+.five_faq_bottom{overflow:hidden; width:375px; border-bottom:1px solid #d9d9d9; padding-bottom:10px; margin-bottom:12px;}
+.five_faq_bottom small{display:block;width:16px; height:16px; background:#0093dd; float:left; display:block;font-size:12px; color:#fff; text-align:center; line-height:16px; vertical-align:middle; margin-right:10px}
+.five_faq_bottom p{font-size:12px; color:#777777; line-height:24px; float:left; width:345px;}
+.zy_five h3 a{display:block; font-size:12px; color:#5c5c5c; text-decoration:underline; margin-top:10px;}
+.zy_five h3 a:hover{color:#0093dd;}
+.zy_five ul li.r{width:410px; overflow:hidden; padding-right:0px;}
+.five_top{overflow:hidden; border-bottom:1px solid #d9d9d9; padding-bottom:35px; margin-bottom:35px;}
+.five_top.r{border:none; margin-bottom:0px; padding-bottom:22px;}
+.five_top h1{font-size:14px; color:#5c5c5c; font-weight:bold; padding-bottom:5px;}
+.five_top p{width:auto; font-size:12px; color:#5c5c5c; line-height:24px;}
+
+/*===============底部===============*/
+.footer{overflow:hidden; background:#0093dd; overflow:hidden; padding:55px 0px;}
+.footer_top{overflow:hidden; width:100%; border-bottom:1px dashed #1fa1e3; padding-bottom:30px; text-align:center;}
+.footer_top span{margin:20px auto;font-weight:bold; padding-left:35px;width:220px;display:block; background:url(../images/tel.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/tel.jpg*/ no-repeat left; line-height:30px; vertical-align:middle; font-size:30px; color:#ffffff;}
+.footer_top p{font-size:12px; color:#9ed7f4; line-height:18px;}
+.footer_top p a{font-size:12px; color:#9ed7f4;}
+.footer_top p a:hover{text-decoration:underline;}
+.footer ul{overflow:hidden; width:1200px; margin:auto; margin-top:35px;}
+.footer ul li{float:left; overflow:hidden; margin-right:90px;}
+.footer ul li.r{margin-right:0px;}
+.footer ul li h2 a{display:block; font-size:14px; color:#ffffff; padding-bottom:10px}
+.footer ul li p a{display:block; font-size:12px; color:#9ed7f4; line-height:18px;}
+.footer ul li p a:hover{color:#fff;}
+
+.beian{width:100%; height:32px; line-height:32px; vertical-align:middle; background:#006ca3; overflow:hidden; text-align:center;}
+.beian p{overflow:hidden;}
+.beian p span{font-size:12px; color:#5890b8;}
+.beian p a{ padding-left:25px;font-size:12px; color:#5890b8; padding-left:15px}
+.beian p a:hover{color:#fff;}
+
+/*===============内页样式===============*/
+.zong_ny{padding:40px 0px 90px 0px;overflow:hidden;}
+
+/*===============内页左侧菜单===============*/
+#nav{width:110px;left:150px;list-style: none;margin: 0;position: fixed;top: 300px;z-index:21; background:#fff; border:1px solid #c9c9c9; border-radius:5px; overflow:hidden;}
+#nav p{width:94px; height:37px; line-height:37px; vertical-align:middle; text-align:center;font-size:12px; color:#ffffff;}
+#nav ul{width:105px; overflow:hidden;padding:15px 0px; text-align:center;}
+#nav li{width:105px;height:30px;line-height:30px; vertical-align:middle;}
+#nav li a{display:block;color: #282828;font-size:12px;}
+#nav li a:hover{color:#0093dd;}
+#nav li.current a{color:#0093dd;}
+#nav p.r{width:88px; height:35px; line-height:35px; vertical-align:middle; text-align:left; background:#0093dd; padding:0px 15px 0px 10px;}
+#nav p.r a{display:block; font-size:12px; color:#fff; background:url(../images/s_jt.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/s_jt.jpg*/ no-repeat right; padding-left:10px;}
+
+/*===============内页右侧菜单===============*/
+.qq_kf{width:224px; height:339px; background:url(../images/kf.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/kf.png*/ no-repeat;right:-135px;list-style: none;margin: 0;position: fixed;top: 300px;z-index:21;overflow:hidden;}
+.kf_zi{overflow:hidden; float:right; width:130px; text-align:center;}
+.kf_zi h2{font-size:14px; color:#ffffff; padding-top:18px;}
+.kf_zi h2 span{display:block; font-size:8px; text-transform:uppercase; color:#72b7e7;-webkit-transform:scale(0.9)}
+.kf_zi strong{display:block; font-size:16px; color:#0093dd; padding-top:67px;}
+.kf_zi a{display:block; font-size:12px; color:#fff; margin-top:9px; padding-left:15px;line-height: 10px;vertical-align: middle;}
+.kf_zi img{width:90px; height:90px; margin-top:30px;}
+.kf_zi p a{display:block; font-size:14px; color:#424242; margin-top:22px; margin-left:15px;}
+.kf_zi p a:hover{color:#0093dd;}
+
+/*===============关于我们===============*/
+.zong_main{overflow:hidden; width:1000px; margin:auto;}
+.zong_top{overflow:hidden; border-bottom:1px solid #d8d8d8; line-height:40px; vertical-align:middle; margin-bottom:30px;}
+.zong_top p{float:left; font-size:16px; color:#464646;}
+.zong_top a{display:block; float:right; font-size:14px; color:#5c5c5c;}
+.zong_top a:hover{color:#0093dd;}
+.about p{font-size:14px; color:#464646; line-height:24px;}
+.about p.r{padding-top:450px;}
+
+.about_ny{overflow:hidden; text-align:center; margin-top:70px;}
+.about_ny strong{display:block; background:url(../images/title_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/title_bj.png*/ no-repeat center; height:32px; line-height:32px; vertical-align:middle; font-weight:500; font-size:16px; color:#424242; margin-bottom:75px;}
+.about_ny ul{margin-bottom:85px; overflow:hidden;}
+.about_ny li{margin-right:85px;float:left; width:132px; overflow:hidden; background:url(../images/bj_zi.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/bj_zi.jpg*/ no-repeat center top; text-align:center;}
+.about_ny li span{display:block; height:132px; line-height:132px; vertical-align:middle; font-size:16px; color:#424242;}
+.about_ny li p{font-size:12px; color:#424242; padding-top:15px;}
+.about_ny li.r{margin-right:0px;}
+
+/*===============成长历程===============*/
+.process_ny{overflow:hidden; position:relative; margin-top:55px;}
+.process_ny h3{width:59px; height:59px; position:absolute; left:50%; margin-left:-30px;*margin-left:-20px; top:0px; z-index:11;background:url(../images/da_cz.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/da_cz.jpg*/ no-repeat center; font-size:14px; color:#6a6a6a; text-align:center; line-height:59px; vertical-align:middle;}
+.process_ny .process{overflow:hidden; background:url(../images/cz_bj.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/cz_bj.jpg*/ repeat-y center; padding-bottom:230px;}
+.process_ny .process_lis{overflow:hidden; position:relative; width:510px; *width:509px; float:left; margin-bottom:50px;}
+.process_ny .process_lis span{width:14px; height:17px; position:absolute; bottom:60px; right:50px; z-index:11; display:block;}
+.process_ny .process_lis em{position:absolute; width:19px; height:19px; display:block; background:url(../images/yuan_cz.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yuan_cz.jpg*/ no-repeat; bottom:60px; right:0px;z-index:12;}
+.process_li{text-align:center;border:1px solid #d8d8d8; border-radius:6px; overflow:hidden; width:385px; padding:30px;background:#fff; float:left;}
+.process_ny .process_lis p{font-size:12px; color:#6a6a6a; line-height:18px; padding-top:10px;}
+.process_ny .process_lis:hover em{background:url(../images/yuan_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yuan_h.jpg*/ no-repeat;}
+.process_li img{width:100%;}
+
+.ul_li{overflow:hidden; width:510px; float:right;margin-left:-30px; *margin-bottom:50px;}
+.ul_li.r{margin-top:150px;}
+.process_ny .process_lis.r{overflow:hidden; position:relative; width:510px; float:left;}
+.process_ny .process_lis.r span{width:14px; height:17px; position:absolute; bottom:60px; left:50px; z-index:11; display:block;}
+.process_ny .process_lis.r em{position:absolute; width:19px; height:19px; display:block; background:url(../images/yuan_cz.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yuan_cz.jpg*/ no-repeat; bottom:60px; left:1px; z-index:12;}
+.process_ny .process_lis.r .process_li{ text-align:center;border:1px solid #d8d8d8; border-radius:6px; overflow:hidden; width:385px; padding:30px;background:#fff; float:right;}
+.process_ny .process_lis.r:hover em{background:url(../images/yuan_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/yuan_h.jpg*/ no-repeat;}
+
+.continued{overflow:hidden; margin-left:490px;}
+.process_ny .continued .process_lis .process_li{border:none; width:210px; float:left; margin-left:25px;}
+.process_ny .continued .process_lis.r em{bottom:30px;}
+
+/*===============荣誉资质===============*/
+.honor{overflow:hidden; margin-top:-50px;}
+#focus_Box{position:relative;width:1000px;height:440px;margin-top:50px;}
+#focus_Box ul{position:relative;width:1000px;height:440px; margin:0px;}
+#focus_Box li{z-index:0;position:absolute; width:0px;height:0px;top:146px;cursor:pointer;left:377px;}
+#focus_Box li img{width:100%;height:100%;vertical-align:top}
+#focus_Box .prev,#focus_Box .next{display:block;z-index:100;overflow:hidden;cursor:pointer;position:absolute;width:368px;height:342px;}
+#focus_Box .prev{left:0px}
+#focus_Box .next{right:0px} 
+#focus_Box a.imgs-scroll-btn{display:block;position:absolute;z-index:110;top:7px;right:15px;width:51px;height:23px;overflow:hidden;background:url(images/share-btn.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/css/images/share-btn.png*/ no-repeat;text-indent:-999px;}
+
+.environ{overflow:hidden; width:1000px; margin:auto; text-align:center;}
+.environ strong{display:block; background:url(../images/title_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/title_bj.png*/ no-repeat center; height:32px; line-height:32px; vertical-align:middle; font-weight:500; font-size:16px; color:#424242; margin-bottom:75px;}
+.environ_left{overflow:hidden; float:left; width:722px;}
+.environ_left img{overflow:hidden; border:1px solid #e3e5ea; width:720px; height:479px;}
+.environ_ny{overflow:hidden; float:right; position:relative; width:223px;height:480px;}
+.Roll{overflow:hidden; width:223px; height:480px;}
+.Roll li{overflow:hidden; height:165px;}
+.Roll li img{overflow:hidden; width:223px; height:149}
+.environ_ny .Roll_btn{z-index:11; display:none;}
+.environ_ny .btn_l{position:absolute;width:223px; height:100px; top:0px; left:0px; background:url(../images/btn_s.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_s.png*/ no-repeat center;}
+.environ_ny .btn_l{background:url(../images/btn_s.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_s.png*/ no-repeat;}
+.environ_ny .btn_r{position:absolute; width:223px; height:100px; bottom:0px; left:0px; background:url(../images/btn_x.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_x.png*/ no-repeat center;}
+.environ_ny .btn_r{background:url(../images/btn_x.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/btn_x.png*/ no-repeat;}
+.environ_ny:hover .Roll_btn{display:block;}
+
+.scope{overflow:hidden; margin-top:70px; text-align:center;}
+.scope strong{display:block; background:url(../images/title_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/title_bj.png*/ no-repeat center; height:32px; line-height:32px; vertical-align:middle; font-weight:500; font-size:16px; color:#424242; margin-bottom:75px;}
+
+.join{overflow:hidden; margin-top:15px;}
+.join li{overflow:hidden; margin:0px 10px; border-bottom:1px dashed #e5e5e5; padding:20px 0px;}
+.join_left{width:575px; float:left; overflow:hidden;}
+.join_left strong{display:block; font-size:14px; color:#282828;}
+.join_left span{display:block; font-size:12px; color:#777777;}
+.join_left p{font-size:12px; color:#777777; line-height:20px; padding-top:5px;}
+.join li a{display:block; float:right; margin-right:55px; width:84px; height:31px; background:url(../images/an.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/an.jpg*/ no-repeat center; margin-top:25px;-webkit-transition: all 0.5s ease-in-out;}
+.join li:hover a{background:url(../images/an_h.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/an_h.jpg*/ no-repeat center;}
+
+/*===============联系我们===============*/
+.contact{overflow:hidden; margin-top:20px;}
+.contact li{float:left; width:350px; padding:0px 10px; border-bottom:1px solid #d8d8d8; padding-bottom:25px; margin-bottom:40px;}
+.contact li.r{float:right;}
+.contact img{float:left;}
+.contact_left{float:right; width:285px; overflow:hidden; text-align:left;}
+.contact_left strong{font-size:14px; color:#464646; padding-bottom:5px; display:block;}
+.contact_left p{font-size:14px; color:#464646; line-height:22px;}
+.contact_left p a{font-size:14px; color:#464646;}
+.contact_left p img{float: right;
+    margin-top: 4px;
+    margin-right: -2px;}
+/*===============新闻中心===============*/
+.new{overflow:hidden; text-align:center;}
+.new strong{font-size:36px; color:#5c5c5c; font-weight:500;}
+.new em{display:block; font-size:18px; color:#5c5c5c; margin-bottom: 50px;}
+.new ul{overflow:hidden;}
+.new ul li{overflow:hidden; margin-bottom:35px;-webkit-transition: all 0.5s ease-in-out;}
+.new ul li a{display:block; cursor:pointer;}
+.new ul li img{float:left;}
+.new_li{width:600px; float:left; margin-left:40px; text-align:left; padding-top:10px;}
+.new_li h2{font-size:14px; color:#c5c5c; font-weight:bold;}
+.new_li span{display:block; font-size:12px; color:#adadad; padding-bottom:15px;-webkit-transition: all 0.5s ease-in-out;}
+.new_li p{font-size:12px; color:#5c5c5c; line-height:20px;}
+.new_li h3{font-size:12px; color:#0093dd; margin-top:30px}
+.new ul li:hover h2{color:#0093dd;}
+.new ul li:hover{background:#f3efef;}
+.yincang{overflow:hidden; clear:both;}
+.yincangs{overflow:hidden;width:998px; text-align:center; border:1px solid #b5b5b5; height:45px; line-height:45px;border-radius:5px;}
+.yincangs a{ display:block;font-size:14px; color:#868686;}
+.yincangs a:hover{color:#0093dd;}
+.yincang_ny{display:none;}
+
+/*===============新闻中心详情页===============*/
+.news{overflow:hidden; margin-top:30px;}
+.news_left{overflow:hidden; float:left; width:720px;}
+.news_top{overflow:hidden;margin-bottom:35px;}
+.news_top strong{display:block; font-size:18px; color:#5c5c5c; padding-bottom:10px;}
+.news_top span{display:block; float:left; font-size:12px; color:#acacac; font-family:Arial, Helvetica, sans-serif; line-height:18px; vertical-align:middle; margin-right:20px;}
+.news_left p{font-size:12px; color:#5c5c5c; line-height:24px;}
+.news_left img{padding:20px 0px;}
+
+.news_right{overflow:hidden;width:250px; float:right;}
+.news_right_top{overflow:hidden;}
+.news_right_top strong{display:block; border-bottom:1px solid #d8d8d8; padding-bottom:10px; margin-bottom:15px; font-size:16px; color:#5c5c5c; font-weight:500;}
+.news_right_top a{display:block; cursor:pointer}
+.news_right_top h2{font-size:14px; color:#383838; padding-bottom:10px;}
+.news_right_top p{font-size:14px; line-height:20px; color:#959595;}
+.news_right_top.r{margin-top:30px;}
+.news_right_top span{display:block; font-size:12px; color:#bdbdbd;}
+.news_right_top.r h2{padding-bottom:5px;}
+.news_right_top.r a{display:block; padding-bottom:20px;}
+.news_right_top a:hover h2{text-decoration:underline; color:#959595;}
+
+/*===============知识学院===============*/
+.in_faq ul{overflow:hidden; padding-bottom:20px;}
+.in_faq li{overflow:hidden; border-bottom:1px solid #b5b5b5; padding:10px 10px 0px 10px;}
+.in_f_add{font-size:14px;color:#252525;background:url(../images/q.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/q.jpg*/ no-repeat left;height:40px;padding-left:35px;line-height:40px;font-size:14px;margin-bottom:10px;display: block;-webkit-transition: all 0.5s ease-in-out 0s;}
+.in_f_c{display: none; position:relative; padding-bottom:20px;width:980px;}
+.in_f_c a{display:block; overflow:hidden;}
+.in_f_c a.faq_ms{background:url(../images/a.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/a.jpg*/ no-repeat top left; font-size:12xp; color:#676767; line-height:24px; padding-left:35px;}
+
+
+/*===============合作伙伴===============*/
+.partner{overflow:hidden;}
+.partner li{float:left; width:309px; position:relative; height:192px; margin-right:35px; margin-bottom:40px;}
+.partner li a{display:block; cursor:pointer;}
+.partner li.r{margin-right:0px;}
+.cover{opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";position:absolute; top:0px; left:0px; 
+background:url(../images/par_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/par_bj.png*/; width:309px; height:192px; text-align:center;}
+.cover p{font-size:18px; color:#ffffff;}
+
+.par_inner_left{overflow:hidden; float:left;width: 720px;}
+.par_inner_left img{  width: 100%;}
+.par_inner_right{width:250px; float:right;}
+.par_inner_top{overflow:hidden; background:#f2f2f2; border-bottom:1px solid #dfddde; padding:40px 23px;}
+.par_inner_top strong{font-size:14px; color:#2c2c2c; line-height:24px; padding-bottom:20px; display:block;}
+.par_inner_top span{margin-bottom:20px;display:block; padding:25px 0px;border-top:1px solid #b3b3b3;border-bottom:1px solid #b3b3b3; font-size:12px; color:#2c2c2c;}
+.par_inner_top p{font-size:12px; color:#2c2c2c; line-height:18px;}
+.par_inner_top p a{font-size:12px; color:#2c2c2c;}
+.par_inner_top p a:hover{text-decoration:underline; color:#0093dd;}
+
+.par_inner_right .news_right_top{background:#f2f2f2; border-bottom:1px solid #dfddde; padding:40px 20px; margin-top:20px}
+.par_inner_right .news_right_top.r{margin-top:20px;}
+
+/*===============美学工作室===============*/
+.studio{overflow:hidden; margin-top:40px;}
+.studio_top{overflow:hidden; padding:0px 0px 35px 40px; min-height:300px;}
+.studio_top strong{font-size:24px; color:#333; display:block; padding-bottom:15px; margin-top:50px;}
+.studio_top p{font-size:12px; color:#4c4949; line-height:22px; max-width:530px;}
+.studio_ny{overflow:hidden; padding-top:50px;}
+.studio_ny strong,.studio_ny1 strong{display:block; background:url(../images/title_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/title_bj.png*/ no-repeat center; height:32px; line-height:32px; text-align:center; vertical-align:middle; font-size:16px; color:#424242; font-weight:500; margin-bottom:80px;}
+.studio_ny li{float:left; text-align:center; margin-right:107px;}
+.studio_ny li.r,.studio_ny1 li.r{margin-right:0px;}
+.studio_ny1{overflow:hidden; padding-top:95px;}
+.studio_ny1 li{float:left; position:relative;width:309px; height:192px; margin-right:36px; margin-bottom:35px;}
+.studio_ny1 .studio_cover{opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";position:absolute; top:0px; left:0px; 
+width:309px; height:192px; background:url(../images/studio_h1.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/studio_h1.png*/ no-repeat center}
+
+/*===============产品中心===============*/
+.zong_top p.r{background:url(../images/pro_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/pro_bj.png*/ no-repeat left; padding-left:25px;}
+.product li{margin-right:25px; margin-bottom:30px;float:left;overflow:hidden; width:316px; height:210px;background:url(../images/pro_li.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/pro_li.jpg*/ no-repeat left top;-webkit-transition: all 0.5s ease-in-out;}
+.product li.r{margin-right:0px;}
+.product li img{ width:304px; height:197px; padding-top:2px; padding-left:2px;}
+.product li a{display:block; cursor:pointer;}
+.product li p{margin-top:-30px; text-align:center; font-size:14px; color:#5c5c5c;}
+.product li:hover{background:url(../images/pro_lih.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/pro_lih.jpg*/ no-repeat left top;}
+.product li:hover p{color:#0093dd;}
+
+/*===============产品中心详情页===============*/
+.products{overflow:hidden; position:relative; width:1000px; margin:auto;}
+.picbox{width:998px; overflow:hidden; min-height:620px; border:1px solid #d3d3d3; border-radius:5px;}
+#featureds{overflow:hidden;position:relative; height:618px; width:680px;}
+#featureds .image{position:absolute; width:680px;height:618px;overflow:hidden;}
+#featureds .image img{width:100%;}
+#featureds .word{z-index:10;right:0px;width:285px;color:#fff;top:0px;position:absolute;padding:0px;text-align:left;background:url(../images/pros_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/pros_bj.png*/;}
+
+.words{z-index:10;right:0px;width:285px;color:#fff;top:70px;position:absolute;padding:40px 30px 50px 30px;text-align:left;background:url(../images/pros_bj.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/pros_bj.png*/;}
+.words strong{font-size:18px; color:#5c5c5c; display:block; padding-bottom:15px;}
+.words p{font-size:14px; color:#5c5c5c; line-height:24px; background:url(../images/dian.jpg)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/dian.jpg*/ no-repeat left; padding-left:12px;}
+
+#thumbs{width:1200px; margin-left:50px;position:relative; z-index:12; margin-top:-100px;}
+*html #thumbs{height:100%;}
+#thumbs li{display:inline;float:left;cursor:pointer;overflow:hidden; margin-left:15px; width:107px; height:71px;}
+#thumbs li a{display:block;font-size:0px;width:107px;height:71px; overflow:hidden;}
+#thumbs li a img{display:block;font-size:0px;width:95px;height:62px; border:1px solid #dcdcdc;border-radius:5px; overflow:hidden;margin-top:7px; margin-left:1px;}
+#thumbs li a:hover img{display:block;height:62px;width:95px; border:none; margin-top:2px;margin-left:2px;}
+#thumbs li a.current img{display:block;height:62px;width:95px; border:none;margin-top:2px; margin-left:2px;}
+#thumbs li a:hover{background:url(../images/hover_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/hover_h.png*/ no-repeat center top;}
+#thumbs li a.current{background:url(../images/hover_h.png)/*tpa=http://www.cdrenai.cn/skin/jhyc/images/hover_h.png*/ no-repeat center top;}
+
+.pros_ny{overflow:hidden; padding-top:65px;}
+/*.pros_ny .pros_strong{display:block; background:url(../images/title_bj.png) no-repeat center; height:32px; line-height:32px; text-align:center; vertical-align:middle; font-size:16px; color:#424242; font-weight:500; margin-bottom:50px;}*/
+.product.r{margin-top:50px;}
+/*.product.r .retld{display:block; background:url(../images/title_bj.png) no-repeat center; height:32px; line-height:32px; text-align:center; vertical-align:middle; font-size:16px; color:#424242; font-weight:500; margin-bottom:50px;}*/
+@media(max-width:1920px){
+	.sorllMenu,.sorllMenu1,.sorllMenu2,.sorllMenu3{overflow:hidden; display:none;}
+	.btn img{padding-top:115px;}
+	.btn .btn_l,.btn .btn_r{width:473px; height:325px;}
+	.sorllMenu4{display:block;width:100%;margin:auto;overflow:hidden;position:relative;}
+	.sorllMenu4 li{overflow:hidden; float:left; width:474px; position:relative; text-align:center; padding-right:2px;}
+	.sorllMenu4 li img{width:100%;}
+	.sorllMenu4 li a{display:block; cursor:pointer; overflow:hidden;}
+}
+@media(max-width:1680px){
+	.btn img{padding-top:100px;}
+	.btn .btn_l,.btn .btn_r{width:414px;height:284px;}
+	.sorllMenu{width:1664px;margin:auto;overflow:hidden;position:relative; display:block;}
+	.sorllMenu li{overflow:hidden; float:left; width:414px; position:relative; text-align:center; padding-right:2px;}
+	.sorllMenu li img{width:100%;}
+	.sorllMenu li a{display:block; cursor:pointer; overflow:hidden;}
+	.sorllMenu1,.sorllMenu2,.sorllMenu3,.sorllMenu4{display:none;}
+}
+@media(max-width:1440px){
+	#nav{left:0px;}
+	.qq_kf{right:0px;}
+	.sorllMenu,.sorllMenu1,.sorllMenu2,.sorllMenu4{overflow:hidden; display:none;}
+	.btn img{padding-top:70px;}
+	.btn .btn_l,.btn .btn_r{width:350px; height:240px;}
+	.sorllMenu3{display:block;width:1407px;margin:auto;overflow:hidden;position:relative;}
+	.sorllMenu3 li{overflow:hidden; float:left; width:350px; position:relative; text-align:center; padding-right:2px;}
+	.sorllMenu3 li img{width:100%;}
+	.sorllMenu3 li a{display:block; cursor:pointer; overflow:hidden;}
+}
+
+@media(max-width:1366px){
+	#nav{left:0px;}
+	.qq_kf{right:0px;}
+	.sorllMenu,.sorllMenu2,.sorllMenu3,.sorllMenu4{overflow:hidden; display:none;}
+	.btn img{padding-top:85px;}
+	.btn .btn_l,.btn .btn_r{width:332px; height:228px;}
+	.sorllMenu1{display:block;width:1333px;margin:auto;overflow:hidden;position:relative;}
+	.sorllMenu1 li{overflow:hidden; float:left; width:332px; position:relative; text-align:center; padding-right:2px;}
+	.sorllMenu1 li img{width:100%;}
+	.sorllMenu1 li a{display:block; cursor:pointer; overflow:hidden;}
+}
+
+@media(max-width:1280px){
+	.sorllMenu,.sorllMenu1,.sorllMenu3,.sorllMenu4{overflow:hidden; display:none;}
+	.btn img{padding-top:70px;}
+	.btn .btn_l,.btn .btn_r{width:310px; height:213px;}
+	.sorllMenu2{display:block;width:1247px;margin:auto;overflow:hidden;position:relative;}
+	.sorllMenu2 li{overflow:hidden; float:left; width:310px; position:relative; text-align:center; padding-right:2px;}
+	.sorllMenu2 li img{width:100%;}
+	.sorllMenu2 li a{display:block; cursor:pointer; overflow:hidden;}
+}
+
+
+.key {
+  width: 740px;
+  height: 33px;
+    font-size: 14px;
+  font-weight: bold;
+  color:#282828
+}
+
+.key a:hover
+{
+	color:#0093dd;
+	}
+	
+	.beian.wztj img {
+  display: block;
+  margin: 0px 0px 10px 5px;
+  vertical-align: middle;
+}
+
+.product.r{margin-top:50px;}
+/*===============数字化中心===============*/
+.digital{overflow:hidden;}
+.digital_left{padding:85px 50px 30px 50px;float:left; width:315px;}
+.digital_left p{font-size:14px; color:#5c5c5c; line-height:26px;}
+.digital_right{float:right;}
+digital_right img{padding:0px;}
+.digital img{padding:30px 0px;}
